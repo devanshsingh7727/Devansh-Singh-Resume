@@ -1,0 +1,227 @@
+{
+  "main": {
+    "name": "Devansh singh",
+    "occupation": "Full Stack Software Engineer",
+    "description": "currently employed by Vinove services where I Play with data, push UI pixels, and create Logics.",
+    "image": "profilepic.jpg",
+    "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack for online Websites, and a passion for coding.I work as a full stack developer for Vinove services, alongside my many ongoing projects. I love to create and tend to keep a few too many projects on the go at a time. I love to travel and lead a fairly nomadic lifestyle.",
+    "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+    "email": "devanshsingh2199@gmail.com",
+    "phone": "9461886086",
+    "address": {
+      "street": "Sector 46",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "zip": "122506"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+   
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/devansh-singh-0515001a0/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/devanshsingh5854/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/devanshsinghvaluecoders",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Dronacharya college of engineering,gurgaon",
+        "degree": "Masters of Technology in Computer Science And Engineering",
+        "graduated": "june 2023",
+        "description": ""
+      },
+      {
+        "school": "Dronacharya college of engineering,gurgaon",
+        "degree": "Bachelor of Technology in Computer Science And Information Technology",
+        "graduated": "june 2021",
+        "description": ""
+      }
+    
+    ],
+    "work": [
+      {
+        
+        "company": "lookseas.com",
+        "description": "Lookseas is an online platform designed to facilitate the buying, selling, and subscription of surveys for boats worldwide. It is a marketplace where boat owners and enthusiasts can list their vessels and buyers can browse and purchase boats of all types and sizes. The platform is updated regularly to ensure that users have access to the latest listings and information. Lookseas is a community of boat owners and enthusiasts who come together to transact in a safe and secure environment.",
+        "title":"Frontend and backend development",
+        "years":"Next js, nodejs,material ui,express,mongodb,azure,vercel, MapBox, Paypal , twillio"
+      },
+      
+      {
+        
+        "company": "Goregi.com",
+        "description": "Go-regi.com is an idea that originated from the USA and builds in India, It is a way to connect global merchants and customers worldwide. Go-regi has helped businesses improve their efficiency through streamlining the production and service delivery process.It enables new and existing businesses to venture into the market and reach potential customers without the need for a physical presence. This way, business organizations can create products, avail themselves on their websites and other electronic portals, and make sales through online transactions, a move that is only possible through electronic commerce. All in all, the importance of electronic commerce in the marketplace cannot be overstated, as it has revolutionized the way of doing business.",
+        "title":"Frontend and backend development",
+        "years":"Next js, nodejs,material ui,express,mongodb,azure,vercel"
+      },
+      {
+        
+        "company": "JobSearch",
+        "description": "- job search site is an online platform that provides direct access to job listings and allows users to select and filter jobs based on their preferences. It is a personalized job search experience that helps job seekers find relevant job opportunities that match their skillset and experience",
+        "title":"Frontend",
+        "years":"React-native, rapid api, expo"
+      },
+      {
+        
+        "company": "DigitalInspection",
+        "description": "Digital Inspection site is an idea of selling inspection.",
+        "title":"Frontend and backend development",
+        "years":"Next js, nodejs,material ui,express,mongodb,azure,vercel"
+      },
+      {
+        
+        "company": "My Inspection Center",
+        "description": "Inspection center site is an idea of Creating the inspections digtally.",
+        "title":"Frontend and backend development",
+        "years":"Next js, nodejs,material ui,express,mongodb,azure,vercel"
+      },
+      {
+        
+        "company": "UserInfo Manager",
+        "description": "Its a userInfo manager which is created using MERN, here in this user can register by providing all personal information and data is saved on mongo server, using credentials user can login and see his details which is rendered dynamically on the website, if user forgot his password then use forgot password link to change the password.also protected routing is use to ensure that unauthenticated user can't see the confidential information of particular user. ",
+        "title":"Frontend and backend development",
+        "years":"React, mongodb, express, node js, bootstrap"
+      },
+      {
+        
+        "company": "Blog post",
+        "description": "It's a blog site created using redux, where you can add, delete, edit the post and it also provides user authentication",
+        "title":"Frontend development",
+        "years":"Reactjs, Redux, Material UI"
+      },
+      {
+        
+        "company": "Weather App",
+        "description": "It's a weather app created using react js which has an elegant ui and data is fetched from open source api.",
+        "title":"Frontend development",
+        "years":"Bootstrap, Reactjs"
+      },
+      {
+        
+        "company": "Corona Tracker",
+        "description": "It's a web app created using corona datasets,which shows all the information of cases,deaths, recovered etc, with an elegant and interactive ui.",
+        "title":"Frontend development",
+        "years":"Reactjs, Redux, Chartjs"
+      },
+      {
+        
+        "company": "Search Engine",
+        "description": "It's a search engine created using next js, in this you can use it like any other search engine.",
+        "title":"Frontend development",
+        "years":"Nextjs, firebase, google Api, Tailwind CSS"
+      },
+      {
+        
+        "company": "Transaction List",
+        "description": "This is a transaction history list similar to any upi payment gateway page,here the main challenge while working on this api is to understand the types of payment like if type=1, status=2, direction=1 means You paid , type=2, status=1, direction=1 means You requested money ,type=1, status=2, direction=2 means You Received, type=2, status=1, direction, 2 means Request received and also some dynamic rending using these datas.",
+        "title":"Frontend development",
+        "years":"Nextjs, firebase, google Api, Tailwind CSS"
+      },
+      {
+        
+        "company": "Restaurant Finder App",
+        "description": "In this project there is a data of restaurant and cuisines where I have to create an app using this data which has dynamic content like a list of restaurants where we can filter out restaurants based on cuisines (may select multiple also ) and remove duplication of data",
+        "title":"Frontend development",
+        "years":"Reactjs,redux,axios,Bootstrap"
+      }
+    
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+     
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+     
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      },
+      {
+        "name": "Node js",
+        "level": "70%"
+      },
+      {
+        "name": "Ionic",
+        "level": "60%"
+      },
+      {
+        "name": "React Native",
+        "level": "70%"
+      }
+      ,
+      {
+        "name": "Paypal payment gateWay",
+        "level": "70%"
+      }
+      ,{
+        "name": "Next js",
+        "level": "90%"
+      },
+      {
+        "name": "Problem Solving",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Go regi",
+        "category": "Ecommerce website",
+        "image": "regimain.png",
+        "url": "https://www.go-regi.com/"
+      },
+      {
+        "title": "Digital Inspection",
+        "category": "Site to sell inpsections online",
+        "image": "digital.png",
+        "url": "https://smw-digital-assets.vercel.app/"
+      },
+      {
+        "title": "My Inspection Center",
+        "category": "Website to create the inspection",
+        "image": "myinspection.png",
+        "url": "https://smw-myinspectioncenter.vercel.app/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Devansh is an excellent resource, and a master at embedded programming. He makes sure all the deadlines meet and that also with the highest standards. He is a hardworking and dedicated person who will complete projects in a given time frame. I would recommend and endorse devansh.",
+        "user": "Mirdula Vats-python developer"
+      },
+      {
+        "text": "I have had the opportunity to work with Devansh on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Devansh excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
+        "user": "Shruti purva-UI developer"
+      }
+    ]
+  }
+}
