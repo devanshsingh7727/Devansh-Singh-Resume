@@ -17,7 +17,6 @@
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
     "social": [
-   
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/devansh-singh-0515001a0/",
@@ -50,102 +49,109 @@
         "graduated": "june 2021",
         "description": ""
       }
-    
     ],
     "work": [
       {
-        
+        "company": "House Inspections",
+        "description": "As a Frontend and Backend Developer, I led the creation of an advanced online platform for the global real estate market. Leveraging cutting-edge technologies such as Next.js, Node.js, Material UI, Express, MongoDB, Azure, Vercel, MapBox, PayPal, Stripe, Twilio, and AI through OpenAI APIs, I ensured a secure and user-friendly marketplace experience. The platform streamlined the process of buying, selling, and surveying houses worldwide, providing a seamless and efficient environment for transactions.",
+        "title": "Frontend and backend developer",
+        "years": "Next.js, Node.js, Material UI, Express, MongoDB, Azure, Vercel, MapBox, PayPal, Stripe, Twilio, AI (openAi api’s)",
+        "website": "https://smw-house.vercel.app/"
+      },
+      {
+        "company": "Impress App",
+        "description": "As a developer, I contributed to creating ImpressApp—a powerful and user-friendly app for crafting professional emails effortlessly. Leveraging Next.js, Material UI, CSS, and OpenAI APIs, I ensured a seamless and personalized email experience for users. The app's simplicity, efficiency, and effectiveness make it a game-changer in the realm of email communication.",
+        "title": "Frontend developer",
+        "years": "Next.js, Material UI, CSS, AI (openAi api’s)",
+        "website": "https://impress-app.vercel.app/"
+      },
+      {
         "company": "lookseas.com",
         "description": "Lookseas is an online platform designed to facilitate the buying, selling, and subscription of surveys for boats worldwide. It is a marketplace where boat owners and enthusiasts can list their vessels and buyers can browse and purchase boats of all types and sizes. The platform is updated regularly to ensure that users have access to the latest listings and information. Lookseas is a community of boat owners and enthusiasts who come together to transact in a safe and secure environment.",
-        "title":"Frontend and backend development",
-        "years":"Next js, nodejs,material ui,express,mongodb,azure,vercel, MapBox, Paypal , twillio"
+        "title": "Frontend and backend development",
+        "years": "Next js, nodejs,material ui,express,mongodb,azure,vercel, MapBox, Paypal , twillio"
       },
-      
+
       {
-        
         "company": "Goregi.com",
         "description": "Go-regi.com is an idea that originated from the USA and builds in India, It is a way to connect global merchants and customers worldwide. Go-regi has helped businesses improve their efficiency through streamlining the production and service delivery process.It enables new and existing businesses to venture into the market and reach potential customers without the need for a physical presence. This way, business organizations can create products, avail themselves on their websites and other electronic portals, and make sales through online transactions, a move that is only possible through electronic commerce. All in all, the importance of electronic commerce in the marketplace cannot be overstated, as it has revolutionized the way of doing business.",
-        "title":"Frontend and backend development",
-        "years":"Next js, nodejs,material ui,express,mongodb,azure,vercel"
+        "title": "Frontend and backend development",
+        "years": "Next js, nodejs,material ui,express,mongodb,azure,vercel"
       },
       {
-        
         "company": "JobSearch",
         "description": "- job search site is an online platform that provides direct access to job listings and allows users to select and filter jobs based on their preferences. It is a personalized job search experience that helps job seekers find relevant job opportunities that match their skillset and experience",
-        "title":"Frontend",
-        "years":"React-native, rapid api, expo"
+        "title": "Frontend",
+        "years": "React-native, rapid api, expo"
       },
+
       {
-        
-        "company": "DigitalInspection",
-        "description": "Digital Inspection site is an idea of selling inspection.",
-        "title":"Frontend and backend development",
-        "years":"Next js, nodejs,material ui,express,mongodb,azure,vercel"
-      },
-      {
-        
         "company": "My Inspection Center",
         "description": "Inspection center site is an idea of Creating the inspections digtally.",
-        "title":"Frontend and backend development",
-        "years":"Next js, nodejs,material ui,express,mongodb,azure,vercel"
+        "title": "Frontend and backend development",
+        "years": "Next js, nodejs,material ui,express,mongodb,azure,vercel"
       },
       {
-        
         "company": "UserInfo Manager",
         "description": "Its a userInfo manager which is created using MERN, here in this user can register by providing all personal information and data is saved on mongo server, using credentials user can login and see his details which is rendered dynamically on the website, if user forgot his password then use forgot password link to change the password.also protected routing is use to ensure that unauthenticated user can't see the confidential information of particular user. ",
-        "title":"Frontend and backend development",
-        "years":"React, mongodb, express, node js, bootstrap"
+        "title": "Frontend and backend development",
+        "years": "React, mongodb, express, node js, bootstrap"
       },
       {
-        
         "company": "Blog post",
         "description": "It's a blog site created using redux, where you can add, delete, edit the post and it also provides user authentication",
-        "title":"Frontend development",
-        "years":"Reactjs, Redux, Material UI"
+        "title": "Frontend development",
+        "years": "Reactjs, Redux, Material UI"
       },
       {
-        
         "company": "Weather App",
         "description": "It's a weather app created using react js which has an elegant ui and data is fetched from open source api.",
-        "title":"Frontend development",
-        "years":"Bootstrap, Reactjs"
+        "title": "Frontend development",
+        "years": "Bootstrap, Reactjs"
       },
       {
-        
         "company": "Corona Tracker",
         "description": "It's a web app created using corona datasets,which shows all the information of cases,deaths, recovered etc, with an elegant and interactive ui.",
-        "title":"Frontend development",
-        "years":"Reactjs, Redux, Chartjs"
+        "title": "Frontend development",
+        "years": "Reactjs, Redux, Chartjs"
       },
       {
-        
         "company": "Search Engine",
         "description": "It's a search engine created using next js, in this you can use it like any other search engine.",
-        "title":"Frontend development",
-        "years":"Nextjs, firebase, google Api, Tailwind CSS"
+        "title": "Frontend development",
+        "years": "Nextjs, firebase, google Api, Tailwind CSS"
       },
       {
-        
         "company": "Transaction List",
         "description": "This is a transaction history list similar to any upi payment gateway page,here the main challenge while working on this api is to understand the types of payment like if type=1, status=2, direction=1 means You paid , type=2, status=1, direction=1 means You requested money ,type=1, status=2, direction=2 means You Received, type=2, status=1, direction, 2 means Request received and also some dynamic rending using these datas.",
-        "title":"Frontend development",
-        "years":"Nextjs, firebase, google Api, Tailwind CSS"
+        "title": "Frontend development",
+        "years": "Nextjs, firebase, google Api, Tailwind CSS"
       },
       {
-        
         "company": "Restaurant Finder App",
         "description": "In this project there is a data of restaurant and cuisines where I have to create an app using this data which has dynamic content like a list of restaurants where we can filter out restaurants based on cuisines (may select multiple also ) and remove duplication of data",
-        "title":"Frontend development",
-        "years":"Reactjs,redux,axios,Bootstrap"
+        "title": "Frontend development",
+        "years": "Reactjs,redux,axios,Bootstrap"
       }
-    
     ],
     "skills": [
+      {
+        "name": "Paypal payment gateWay",
+        "level": "100%"
+      },
+      {
+        "name": "Stripe payment gateWay",
+        "level": "100%"
+      },
+      {
+        "name": "Next js",
+        "level": "90%"
+      },
       {
         "name": "Git",
         "level": "80%"
       },
-     
+
       {
         "name": "ReactJs",
         "level": "80%"
@@ -158,7 +164,7 @@
         "name": "HTML5",
         "level": "80%"
       },
-     
+
       {
         "name": "MongoDB",
         "level": "80%"
@@ -174,16 +180,8 @@
       {
         "name": "React Native",
         "level": "70%"
-      }
-      ,
-      {
-        "name": "Paypal payment gateWay",
-        "level": "70%"
-      }
-      ,{
-        "name": "Next js",
-        "level": "90%"
       },
+
       {
         "name": "Problem Solving",
         "level": "90%"
@@ -193,22 +191,35 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Go regi",
-        "category": "Ecommerce website",
-        "image": "regimain.png",
-        "url": "https://www.go-regi.com/"
+        "title": "Impress App",
+        "category": "it a game-changer in the realm of email communication.",
+        "image": "ImpressApp.JPG",
+        "url": "https://impress-app.vercel.app/"
       },
       {
-        "title": "Digital Inspection",
-        "category": "Site to sell inpsections online",
-        "image": "digital.png",
-        "url": "https://smw-digital-assets.vercel.app/"
+        "title": "House Inspection",
+        "category": "Buy, sell and request House Inspections",
+        "image": "HouseInspection.JPG",
+        "url": "https://smw-house.vercel.app/"
       },
+      {
+        "title": "LookSeas",
+        "category": "Buy, sell and request Boat Surveys",
+        "image": "Lookseas.JPG",
+        "url": "https://lookseas.com/"
+      },
+      {
+        "title": "Go regi",
+        "category": "Ecommerce website",
+        "image": "regi.JPG",
+        "url": "https://www.go-regi.com/"
+      },
+
       {
         "title": "My Inspection Center",
         "category": "Website to create the inspection",
-        "image": "myinspection.png",
-        "url": "https://smw-myinspectioncenter.vercel.app/"
+        "image": "myInspection.JPG",
+        "url": "https://my-inspection-center.vercel.app/"
       }
     ]
   },
