@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { motion } from "framer-motion";
 function Header(props) {
   if (props.data) {
     var name = props.data.name;
@@ -15,10 +16,24 @@ function Header(props) {
       );
     });
   }
+  const container = {
+    hidden: {},
+    show: {
+      transition: {
+        delayChildren: 0.5,
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 100 },
+    show: { opacity: 1, y: 0 },
+  };
   return (
     <div className='background-container'>
       <header id='home'>
-        <nav style={{ backgroundColor: '#6200EE' }} id='nav-wrap'>
+        <nav style={{ backgroundColor: "#6200EE" }} id='nav-wrap'>
           <a className='mobile-btn' href='#nav-wrap' title='Show navigation'>
             Show navigation
           </a>
@@ -26,50 +41,47 @@ function Header(props) {
             Hide navigation
           </a>
 
-          <ul id='nav' className='nav'>
-            {/* <span>
-              <a className='smoothscroll' href='#home'>
-                <img
-                  src='/images/Logonoback.png'
-                  style={{ width: '50px', height: '50px' }}
-                />
-              </a>
-            </span> */}
-
+          <motion.ul
+            variants={container}
+            initial='hidden'
+            animate='show'
+            id='nav'
+            className='nav'
+          >
             <span>
-              <li className='current'>
+              <motion.li variants={item} className='current'>
                 <a className='smoothscroll' href='#home'>
                   Home
                 </a>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li variants={item}>
                 <a className='smoothscroll' href='#about'>
                   About
                 </a>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li variants={item}>
                 <a className='smoothscroll' href='#portfolio'>
                   Works
                 </a>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li variants={item}>
                 <a className='smoothscroll' href='#resume'>
                   Resume
                 </a>
-              </li>
+              </motion.li>
 
-              <li>
+              <motion.li variants={item}>
                 <a className='smoothscroll' href='#testimonials'>
                   Testimonials
                 </a>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li variants={item}>
                 <a className='smoothscroll' href='#contact'>
                   Contact
                 </a>
-              </li>
+              </motion.li>
             </span>
-          </ul>
+          </motion.ul>
         </nav>
         <div className='row banner'>
           <div className='banner-text'>

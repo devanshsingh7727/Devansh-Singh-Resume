@@ -1,30 +1,28 @@
-import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
-import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
+import React, { Component } from "react";
+
+import $ from "jquery";
+import "./App.css";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import About from "./Components/About";
+import Resume from "./Components/Resume";
+import Contact from "./Components/Contact";
+import Testimonials from "./Components/Testimonials";
+import Portfolio from "./Components/Portfolio";
+import MainDivAnimation from "./Components/Framer/MainDivAnimation";
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      foo: 'bar',
+      foo: "bar",
       resumeData: {},
     };
-
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
   }
 
   getResumeData() {
     $.ajax({
-      url: '/resumeData.json',
-      dataType: 'json',
+      url: "/resumeData.json",
+      dataType: "json",
       cache: false,
       success: function (data) {
         this.setState({ resumeData: data });
@@ -43,14 +41,27 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-
-        <Resume data={this.state.resumeData.resume} />
-        <Testimonials data={this.state.resumeData.testimonials} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
+        <MainDivAnimation>
+          <Header data={this.state.resumeData.main} />
+        </MainDivAnimation>
+        <MainDivAnimation>
+          <About data={this.state.resumeData.main} />
+        </MainDivAnimation>
+        <MainDivAnimation>
+          <Portfolio data={this.state.resumeData.portfolio} />
+        </MainDivAnimation>
+        <MainDivAnimation>
+          <Resume data={this.state.resumeData.resume} />
+        </MainDivAnimation>
+        <MainDivAnimation>
+          <Testimonials data={this.state.resumeData.testimonials} />
+        </MainDivAnimation>
+        <MainDivAnimation>
+          <Contact data={this.state.resumeData.main} />
+        </MainDivAnimation>
+        <MainDivAnimation>
+          <Footer data={this.state.resumeData.main} />
+        </MainDivAnimation>
       </div>
     );
   }

@@ -1,2 +1,14 @@
-node_modules
-node_modules
+# Ignore Node.js generated files
+node_modules/
+lodnode_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore optional eslint cache
+.eslintcache
+
+# Ignore production build output
+build/
+
+# Ignore development server bundle output
+*.hot-update.json
