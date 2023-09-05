@@ -16,6 +16,7 @@ function Header(props) {
       );
     });
   }
+
   const container = {
     hidden: {},
     show: {
