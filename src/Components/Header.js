@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import TextBubbling from "./Framer/TextBubbling";
 function Header(props) {
   if (props.data) {
     var name = props.data.name;
@@ -31,6 +32,8 @@ function Header(props) {
     hidden: { opacity: 0, y: 100 },
     show: { opacity: 1, y: 0 },
   };
+  let SplitedName = name ? name?.split("") : [];
+
   return (
     <div className='background-container'>
       <header id='home'>
@@ -86,7 +89,13 @@ function Header(props) {
         </nav>
         <div className='row banner'>
           <div className='banner-text'>
-            <h1 className='responsive-headline'>I'm {name}.</h1>
+            <h1 className='responsive-headline'>
+              {" "}
+              {SplitedName.map((rep) => (
+                <TextBubbling>{rep === " " ? "\u00A0" : rep}</TextBubbling>
+              ))}
+              .
+            </h1>
             <h3>
               I'm a {city} based <span>{occupation}</span>. {description}.
             </h3>
